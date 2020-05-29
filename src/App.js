@@ -32,7 +32,7 @@ class VideoPlayer extends Component {
         <div data-vjs-player>
           <video ref={ node => this.videoNode = node } className="video-js"></video>
         </div>
-      </div>
+      </div>  
     )
   }
 }
